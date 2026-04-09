@@ -7,6 +7,16 @@ Tested on TrueNAS SCALE 25.10.2.1.
 > This project was created with significant assistance from Claude (Anthropic). The mapping file and dashboard were built through iterative testing against a live TrueNAS 25.x system, debugging metric pipeline issues specific to this version, and validating every panel against real data.
 
 ---
+## Screenshots
+
+<img width="1383" height="1081" alt="image" src="https://github.com/user-attachments/assets/6ac0e7a5-2d2a-4047-b216-565f7b1f3aff" />
+<img width="1380" height="1063" alt="image" src="https://github.com/user-attachments/assets/9748c339-82e4-4a3a-801e-4c0deb0d7217" />
+<img width="1380" height="315" alt="image" src="https://github.com/user-attachments/assets/53782fef-7f97-4934-8d16-97006bcb1822" />
+<img width="1381" height="687" alt="image" src="https://github.com/user-attachments/assets/c31d41dc-b8d8-4f16-ae3f-25f1f6d6488c" />
+<img width="1376" height="271" alt="image" src="https://github.com/user-attachments/assets/ac5e7bc2-45a0-4918-90f5-b112d4043dae" />
+<img width="1380" height="608" alt="image" src="https://github.com/user-attachments/assets/b0338d98-0b86-4112-b7ac-2942bb272137" />
+<img width="1387" height="611" alt="image" src="https://github.com/user-attachments/assets/d53422fd-e3d7-44b7-83ee-c0bedc8369e9" />
+> (Last Image show Cgroup / Container Resources is serving old data. For the name pbs (system) and pbs (user) is what you would see for your containers.)
 
 ## Overview
 
