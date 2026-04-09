@@ -16,7 +16,7 @@ Tested on TrueNAS SCALE 25.10.2.1.
 <img width="1376" height="271" alt="image" src="https://github.com/user-attachments/assets/ac5e7bc2-45a0-4918-90f5-b112d4043dae" />
 <img width="1380" height="608" alt="image" src="https://github.com/user-attachments/assets/b0338d98-0b86-4112-b7ac-2942bb272137" />
 <img width="1387" height="611" alt="image" src="https://github.com/user-attachments/assets/d53422fd-e3d7-44b7-83ee-c0bedc8369e9" />
-> (Last Image show Cgroup / Container Resources is serving old data. For the name pbs (system) and pbs (user) is what you would see for your containers.)
+> Last Image show Cgroup / Container Resources is serving old data. For the name pbs (system) and pbs (user) is what you would see for your containers.
 
 ## Overview
 
