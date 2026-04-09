@@ -16,6 +16,7 @@ Tested on TrueNAS SCALE 25.10.2.1.
 <img width="1376" height="271" alt="image" src="https://github.com/user-attachments/assets/ac5e7bc2-45a0-4918-90f5-b112d4043dae" />
 <img width="1380" height="608" alt="image" src="https://github.com/user-attachments/assets/b0338d98-0b86-4112-b7ac-2942bb272137" />
 <img width="1387" height="611" alt="image" src="https://github.com/user-attachments/assets/d53422fd-e3d7-44b7-83ee-c0bedc8369e9" />
+
 > Last Image show Cgroup / Container Resources is serving old data. For the name pbs (system) and pbs (user) is what you would see for your containers.
 
 ## Overview
@@ -76,7 +77,7 @@ TrueNAS does not expose a native Prometheus endpoint. Instead it pushes metrics 
 - Memory usage per container
 - I/O per container (read and write)
 
-Container names are extracted automatically from the metric path. New containers appear in the dashboard without any mapping changes.
+Container names are extracted automatically from the metric path — no mapping changes are needed when new containers are added. Each container appears with two CPU series labelled `<name> (system)` and `<name> (user)`, and two I/O series labelled `<name> (read)` and `<name> (write)`. For example, a Proxmox Backup Server container will show as `pbs (system)` and `pbs (user)` in the CPU panel.
 
 ---
 
